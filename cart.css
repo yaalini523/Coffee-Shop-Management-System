@@ -1,0 +1,59 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+    background: url(./images/cart.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: rgb(217, 212, 212);
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    color: rgb(0, 0,0);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+.btn-danger {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
